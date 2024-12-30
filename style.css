@@ -1,0 +1,72 @@
+body{
+    margin: 0px;
+}
+
+.navbar>ul>li{
+    display: inline;
+    padding-right: 10px;
+    font-size: 20px;
+    /* border: 1px solid red; */
+}
+
+.navbar{
+    background-color: black;
+    border: 1px solid aquamarine;
+    height: 60px;
+    text-align: center;
+}
+
+a:link{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgb(255, 0, 51);
+    font-size: 25px;
+}
+
+a:focus{
+    color: white;
+}
+
+a:active{
+    color: yellow;
+}
+
+@font-face {
+    font-family: cool-font;
+    src: url(fonts/Bungee_Spice/BungeeSpice-Regular.ttf);
+}
+
+@font-face {
+    font-family: doto;
+    src: url(fonts/Doto/Doto-VariableFont_ROND\,wght.ttf);
+}
+
+body{
+    background-color: black;
+}
+
+.heading1{
+    background-color: black;
+    font-family: cool-font;
+    font-size: 28px;
+    height: 80px;
+    line-height: 3em;
+}
+
+.para1{
+    font-family: doto;
+    color: white;
+    text-align: justify;
+}
+
+.para1:first-letter{
+  font-family: doto;
+}
+
+@font-face {
+    font-family: Fire font;
+    src: url(fonts/Bungee_Spice/BungeeSpice-Regular.ttf);
+}
